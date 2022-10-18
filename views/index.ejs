@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('head') %>
+<body>
+    <%- include('navbar') %>
+    <div class="container mt-4 ">
+        <div class="card">
+            <div class="card-body bg-dark">
+                SYSTEMS ANALYSIS AND DESIGN 1/2022
+            </div>
+          </div>
+
+          <div class="accordion mt-4" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button color_theme text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Assignment
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body ">
+                        <!-- <div class="no_ass blue-100">
+                            No Assignment
+                        </div> -->
+                        <% assignment.forEach((item)=>{ %>
+
+                       
+                        <div class="d-flex mt-4 ">
+                            <a href="/<%= item.Assignment_file%>" class="d-flex justify-content-between w-100">
+                            
+                              <div>
+                                <p class="text-assign "> <i class="bi bi-file-earmark-text text-black-50 text-assign mt-4 me-1 "></i> <%= item.Assignment_title %> </p>   
+                                <p class="timeend timepost">โพสต์เมื่อ <%= item.Assignment_timestart %></p> 
+                              </div>
+                          
+                               
+                              
+                               <p class="timeend">ครบกำหนด <%= item.Assignment_timeend %> </p>
+                                      
+                             </a>
+                        </div>
+                        <hr>
+                        <%}) %>
+                    
+                </div>
+              </div>
+            </div>
+           
+          
+          </div>
+      </div>
+   
+      
+        <button class="btn fixedbutton "><a href="/addassign"><i class="bi bi-plus-circle-fill color_icon "></i></a></button>
+      
+</body>
+</html>

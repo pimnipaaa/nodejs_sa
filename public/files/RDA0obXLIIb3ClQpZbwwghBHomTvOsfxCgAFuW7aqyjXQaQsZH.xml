@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+    <customer>
+        <name>John Wilkey</name>
+        <address>Madison,KY</address>
+        <phone>644-3129</phone>
+    </customer>
+    <customer>
+        <name>Billy Mac</name>
+        <address>Banheim,ME</address>
+        <phone>962-9574-77</phone>
+    </customer>
+</customers>

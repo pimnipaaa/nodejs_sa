@@ -1,0 +1,52 @@
+.bi-person-circle{
+    font-size: 19px;
+}
+
+.accordion-body{
+    min-height: 2rem ;
+}
+a{
+    text-decoration: none;
+}
+.text-assign{
+    color: #0077ff ;
+}
+/* #a73b24 */
+.card-body{
+    background-color:#f8f9fa !important ;  
+}
+*:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    /* border-color: rgba(0,0,0,.125); */
+}
+
+.accordion-button{
+    background-color:#f8f9fa !important ;  
+    color: black !important;
+}  
+
+.fixedbutton {
+    width: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 70px; 
+}
+.bi-plus-circle-fill{
+    font-size: 60px;
+   
+}
+.timeend{
+    color: rgb(122, 122, 122);
+}
+.timepost{
+    font-size: 14px;
+}
+.color_theme{
+    background-color: #a73b24  !important;
+    color: white !important;
+    
+}
+.color_icon{
+   color: #a73b24  !important;
+}
